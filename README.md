@@ -1,7 +1,7 @@
 # Portfolio Site - WAbby404.github.io
 ## This project is a platform where I share my projects and share my information.
 
-![AbbyW Logo](images/AWlogo.svg)
+![AbbyW Logo](/src/images/AWlogo.svg)
 <!-- <img src="images/AWlogo.svg" align="right" alt="AbbyW Logo" width="100"/> -->
 
 <img src="images/PortfolioSite.jpg" alt="AbbyW Portfolio Site" width="500"/>
