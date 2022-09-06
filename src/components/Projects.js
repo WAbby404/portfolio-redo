@@ -52,8 +52,8 @@ function Projects(props) {
                                     <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
                                 </ul>
                                 <div className="project-btn">
-                                    <a href="https://github.com/WAbby404/WAbby404.github.io" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
-                                    <a href="https://wabby404.github.io/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live</button></a>
+                                    <a href="https://github.com/WAbby404/portfolio-redo" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
+                                    <a href="https://wabby404.github.io/portfolio-redo/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live</button></a>
                                 </div>
                             </div>
                             <img src={img2} className="project-img" alt="Portfolio site Hero"/>
