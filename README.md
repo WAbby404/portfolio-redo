@@ -1,5 +1,5 @@
-# Portfolio Site - WAbby404.github.io
-## <img src="/src/images/AWlogo.svg" align="right" alt="AbbyW Logo" width="100"/>This project is a platform where I share my projects and share my information. 
+#  <img src="/src/images/AWlogo.svg" align="right" alt="AbbyW Logo" width="100"/>Portfolio Site
+## This project is a platform where I share my projects and share my information. 
 
 <img src="/src/images/PortfolioSite.jpg" align="center" alt="AbbyW Portfolio Site" width="500"/>
 This is my second iteration of my portfolio site, rebuilt in React. The site has been updated, and now includes animations, a faster image gallery, and a from that will send me an email. The site is still getting updated with more information and projects as they get built. Stick around for more info!
