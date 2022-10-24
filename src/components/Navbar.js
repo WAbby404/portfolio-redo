@@ -42,7 +42,6 @@ function Navbar(props) {
 
     return (
         <nav className={`${!showNav && 'hide-up'}`}>
-            {console.log(lastScroll)}
             <div className="nav-wrapper">
                 <img src={logo} className='logo' alt="Abby Waddell logo"/>
                 <div className="nav-logo-text">Abby Waddell</div>
