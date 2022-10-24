@@ -58,7 +58,7 @@ function About(props) {
                         <h2 className="about-title" id="about">About Me</h2>
                     </Fade>
                     <Fade>
-                        <p className="about-paragraph">Hello! I'm Abby. I'm a software developer with a background of design, who loves to mix the two together. I took an interest in computers when I was a kid, and my love for technology only grew when I discovered programming in highschool. In my free time I love to go on hikes with my dog, paint, care for my plants and play many video games!</p>
+                        <p className="about-paragraph">Hello! I'm Abby, I'm a software developer with a background in Graphic Design. took an interest in computers when I was a kid, and my love for technology only grew when I discovered programming in highschool. In my free time I love to go on hikes with my dog, paint, care for my plants and play many video games!</p>
                     </Fade>
                     <Fade>
                         <h3 className="about-skills">Skills & Tools</h3>
