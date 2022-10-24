@@ -21,12 +21,12 @@ function Projects(props) {
                                 <h4 className="project-num">Proj 01.</h4>
                                 <h3 className="project-title">Eat This</h3>
                                 <div className="paragraph-background">
-                                    <p className="project-paragraph"></p>
+                                    <p className="project-paragraph">A web ppp built to help you find recipes, fit them into a meal plan, and add their ingredients to shopping lists. Utilizes React useState to store data from user input and useEffect to update API results upon search. I took this project as an opportunity to teach myself SASS and to more practice with React Router.</p>
                                 </div>
                                 <ul className ='project-list'>
                                     <li className=""><span className="diamond">✦</span>  React</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  JavaScript</li>
-                                    <li className="project-list-item"><span className="diamond">✦</span>  Sass</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  SASS</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  React Router</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  CSS</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
