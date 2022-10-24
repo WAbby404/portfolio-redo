@@ -28,6 +28,8 @@ function Projects(props) {
                                     <li className="project-list-item"><span className="diamond">✦</span>  JavaScript</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  SASS</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  React Router</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  JSON</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  API</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  CSS</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
                                 </ul>

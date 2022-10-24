@@ -13,7 +13,7 @@ function About(props) {
     },
     {
         image: img2,
-        caption: 'My most recent painting'
+        caption: 'My most recent oil painting of a Metroid'
     },
     {
         image: img3,
