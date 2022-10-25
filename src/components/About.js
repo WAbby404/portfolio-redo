@@ -17,7 +17,7 @@ function About(props) {
     },
     {
         image: img3,
-        caption: 'The majority of my plants I care for'
+        caption: 'This is majority of my plants I own'
     }]
 
     const [slide, setSlide] = useState(0);
