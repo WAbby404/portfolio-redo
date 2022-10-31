@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-redo/static/css/main.f8f95db6.css",
-    "main.js": "/portfolio-redo/static/js/main.0c256d5e.js",
+    "main.css": "/portfolio-redo/static/css/main.f7ad1f5e.css",
+    "main.js": "/portfolio-redo/static/js/main.dde7872e.js",
     "static/media/eat-this.jpg": "/portfolio-redo/static/media/eat-this.6eb62045dc33f7717754.jpg",
     "static/media/BuildAQuiz.png": "/portfolio-redo/static/media/BuildAQuiz.c7162ad5ae27b54ade4a.png",
     "static/media/PortfolioSite.jpg": "/portfolio-redo/static/media/PortfolioSite.50fb6c8b6901ff027316.jpg",
+    "static/media/Resume.pdf": "/portfolio-redo/static/media/Resume.c5fa5780e3214bd03e61.pdf",
     "static/media/slideshow1.jpg": "/portfolio-redo/static/media/slideshow1.89f7a0ff8904163555a6.jpg",
     "static/media/slideshow2.jpg": "/portfolio-redo/static/media/slideshow2.bdbbc9a8a54f824d2fe1.jpg",
     "static/media/slideshow3.jpg": "/portfolio-redo/static/media/slideshow3.25fbbc1d5318fcf0a43a.jpg",
-    "static/media/resume.pdf": "/portfolio-redo/static/media/resume.9f972d6b6aa385ddf4fa.pdf",
     "index.html": "/portfolio-redo/index.html",
     "static/media/AWlogo.svg": "/portfolio-redo/static/media/AWlogo.808de40c8361320420f5ce0e7287ecc4.svg",
-    "main.f8f95db6.css.map": "/portfolio-redo/static/css/main.f8f95db6.css.map",
-    "main.0c256d5e.js.map": "/portfolio-redo/static/js/main.0c256d5e.js.map"
+    "main.f7ad1f5e.css.map": "/portfolio-redo/static/css/main.f7ad1f5e.css.map",
+    "main.dde7872e.js.map": "/portfolio-redo/static/js/main.dde7872e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f95db6.css",
-    "static/js/main.0c256d5e.js"
+    "static/css/main.f7ad1f5e.css",
+    "static/js/main.dde7872e.js"
   ]
 }
