@@ -21,7 +21,8 @@ function Projects(props) {
                                 <h4 className="project-num">Proj 01.</h4>
                                 <h3 className="project-title">Eat This</h3>
                                 <div className="paragraph-background">
-                                    <p className="project-paragraph">A web app built to help you find recipes, fit them into a meal plan, and add their ingredients to a shopping list. Utilizes React useState to store data from user input and useEffect to update API results upon search. I used this project as an opportunity to teach myself SASS and to practice React Router, and handling data from an API.</p>
+                                    <p className="project-paragraph">A web app built to help you find recipes, meal plan, and create shopping lists. Utilizes Edamam API to retrieve recipe information, relies on CRUD opertaions to make interactive shopping lists, and directs app state & inter-process communication with React Hooks. I also took this opportunity to practice with SASS and React Router.</p>
+                                    <p className="project-sidenote">*If recipes do not load, please try again in a few minutes*</p>
                                 </div>
                                 <ul className ='project-list'>
                                     <li className=""><span className="diamond">✦</span>  React</li>
@@ -36,7 +37,7 @@ function Projects(props) {
                                 </ul>
                                 <div className="project-btn">
                                     <a href="https://github.com/WAbby404/eat-this" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
-                                    <a href="https://eat-this-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live</button></a>
+                                    <a href="https://eat-this-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live site</button></a>
                                 </div>
                             </div>
                             <img src={img3} className="project-img" alt="Eat This homepage"/>

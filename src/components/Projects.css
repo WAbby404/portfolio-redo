@@ -69,6 +69,11 @@
     color: var(--main-light-purple);
 }
 
+.project-sidenote{
+    color: var(--main-light-purple);
+    font-style: italic;
+}
+
 .project-list{
     color: var(--main-light-purple);
     padding: 10px;
