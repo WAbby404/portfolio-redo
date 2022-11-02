@@ -40,7 +40,8 @@ function Projects(props) {
                                     <a href="https://eat-this-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live site</button></a>
                                 </div>
                             </div>
-                            <img src={img3} className="project-img" alt="Eat This homepage"/>
+                            <iframe width="500" height="315" src="https://www.youtube.com/embed/hiXg5HfBSiE" title="YouTube video player - Eat This Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
                         </div>
                     </Fade>
 
