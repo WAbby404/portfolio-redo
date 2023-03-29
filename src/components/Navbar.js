@@ -3,7 +3,7 @@ import './Button.css';
 import './Navbar.css';
 import logo from '../images/AWlogo.svg';
 import { Link } from 'react-scroll';
-import resume from '../images/Resume.pdf';
+import resume from '../images/Resume_Abby_Waddell.pdf';
 
 
 function Navbar(props) {

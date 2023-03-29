@@ -4,7 +4,7 @@ import './Button.css';
 import ParticleBackground from './ParticleBackground';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
-import resume from '../images/Resume.pdf';
+import resume from '../images/Resume_Abby_Waddell.pdf';
 
 
 function Hero(props) {
