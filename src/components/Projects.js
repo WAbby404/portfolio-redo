@@ -43,15 +43,17 @@ function Projects(props) {
                         </div>
                     </Fade>
                     <Fade>
-                        <div className="project">
+                        <div className="project opposite-img">
+                            <iframe width="500" height="315" src="https://www.youtube.com/embed/hiXg5HfBSiE" title="YouTube video player - Eat This Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
                             <div className="project-text">
-                                <h4 className="project-num">Proj 02.</h4>
-                                <h3 className="project-title">Eat This</h3>
-                                <div className="paragraph-background">
+                                <h4 className="project-num opposite">Proj 02.</h4>
+                                <h3 className="project-title opposite">Eat This</h3>
+                                <div className="paragraph-background opposite">
                                     <p className="project-paragraph">A web app built to help you find recipes, meal plan, and create shopping lists. Utilizes Edamam API to retrieve recipe information, relies on CRUD opertaions to make interactive shopping lists, and directs app state & inter-process communication with React Hooks. I also took this opportunity to practice with SASS and React Router.</p>
                                     <p className="project-sidenote">*If recipes do not load, please try again in a few minutes*</p>
                                 </div>
-                                <ul className ='project-list'>
+                                <ul className ='project-list opposite'>
                                     <li className=""><span className="diamond">✦</span>  React</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  JavaScript</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  SASS</li>
@@ -62,43 +64,18 @@ function Projects(props) {
                                     <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
                                     <li className="project-list-item"><span className="diamond">✦</span>  Netlify</li>
                                 </ul>
-                                <div className="project-btn">
+                                <div className="project-btn opposite">
                                     <a href="https://github.com/WAbby404/eat-this" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
                                     <a href="https://eat-this-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live site</button></a>
                                 </div>
                             </div>
-                            <iframe width="500" height="315" src="https://www.youtube.com/embed/hiXg5HfBSiE" title="YouTube video player - Eat This Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                            </iframe>
                         </div>
                     </Fade>
 
                     <Fade>
-                        <div className="project opposite-img">
-                            <img src={img1} className="project-img" alt="Build a Quiz Screenshot"/>
-                            <div className="project-text">
-                                <h4 className="project-num opposite">Proj 03.</h4>
-                                <h3 className="project-title opposite">Build a Quiz</h3>
-                                <div className="paragraph-background opposite">
-                                    <p className="project-paragraph">An editable quiz game that lets users create quizzes based on topics inputted by the user. Uses React, managing state with useState, referencing elements on the DOM through useRef, and taking in data from a form.</p>
-                                </div>
-                                <ul className ='project-list opposite'>
-                                    <li className="project-list-item"><span className="diamond">✦</span>  React</li>
-                                    <li className="project-list-item"><span className="diamond">✦</span>  JavaScript</li>
-                                    <li className="project-list-item"><span className="diamond">✦</span>  CSS</li>
-                                    <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
-                                </ul>
-                                <div className="project-btn opposite">
-                                    <a href="https://github.com/WAbby404/Build-a-Quiz" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
-                                    <a href="https://build-a-quiz-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </Fade>
-    
-                    <Fade>
                         <div className="project">
                             <div className="project-text">
-                                <h4 className="project-num">Proj 04.</h4>
+                                <h4 className="project-num">Proj 03.</h4>
                                 <h3 className="project-title">Portfolio Site</h3>
                                 <div className="paragraph-background">
                                     <p className="project-paragraph">This is the second version of my Portfolio site, now built in React with animations, better responsive behavior and a form to send me an email. This project demonstrates managing state, taking in data from a from, and the use of packages to enhance user experience.</p>
@@ -115,6 +92,29 @@ function Projects(props) {
                                 </div>
                             </div>
                             <img src={img2} className="project-img" alt="Portfolio site Hero"/>
+                        </div>
+                    </Fade>
+
+                    <Fade>
+                        <div className="project opposite-img">
+                            <img src={img1} className="project-img" alt="Build a Quiz Screenshot"/>
+                            <div className="project-text">
+                                <h4 className="project-num opposite">Proj 04.</h4>
+                                <h3 className="project-title opposite">Build a Quiz</h3>
+                                <div className="paragraph-background opposite">
+                                    <p className="project-paragraph">An editable quiz game that lets users create quizzes based on topics inputted by the user. Uses React, managing state with useState, referencing elements on the DOM through useRef, and taking in data from a form.</p>
+                                </div>
+                                <ul className ='project-list opposite'>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  React</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  JavaScript</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  CSS</li>
+                                    <li className="project-list-item"><span className="diamond">✦</span>  HTML</li>
+                                </ul>
+                                <div className="project-btn opposite">
+                                    <a href="https://github.com/WAbby404/Build-a-Quiz" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Github</button></a>
+                                    <a href="https://build-a-quiz-abbyw.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="btn btn--outline-small">Live</button></a>
+                                </div>
+                            </div>
                         </div>
                     </Fade>
                 </div>
