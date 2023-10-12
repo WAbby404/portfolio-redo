@@ -21,6 +21,7 @@ function Projects(props) {
                                 <h3 className="project-title">Moonlit Financial Dashboard</h3>
                                 <div className="paragraph-background">
                                     <p className="project-paragraph">A login secured financial tracking dashboard. Developed using React, Tailwind, MUI, JavaScript, Firebase Database & Authentication, Cypress Testing and designed in Figma.</p>
+                                    <p className="project-paragraph">*To Demo, login with: Email: demo@gmail.com | Password: password*</p>
                                 </div>
                                 <ul className ='project-list'>
                                     <li className=""><span className="diamond">✦</span>  React</li>
