@@ -97,7 +97,6 @@ function Projects(props) {
                             </div>
                             <iframe width={window.innerWidth > 600 ? '500' : '300'} height="315" src="https://www.youtube.com/embed/hiXg5HfBSiE" title="YouTube video player - Eat This Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                             </iframe>
-                            {/* width="500" */}
                         </div>
                     </Fade>
 
