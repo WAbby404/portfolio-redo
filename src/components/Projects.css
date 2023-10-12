@@ -84,11 +84,6 @@
     list-style-type: none;
 }
 
-/* .project-img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-} */
-
 .project-btn{
     display:flex;
 }
@@ -98,6 +93,10 @@
 .opposite{
     text-align: right;
     justify-content: flex-end;
+}
+
+.opposite-img{
+    flex-direction: row-reverse;
 }
 
 /* Responsive */
@@ -136,8 +135,9 @@
     }
 
     .opposite-img{
-        flex-direction: column;
+        flex-direction: column-reverse
     }
+    
 
 }
 
