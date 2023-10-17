@@ -37,7 +37,7 @@ function Projects(props) {
         {
             title: 'Portfolio Site',
             paragraph: 'This is the second version of my Portfolio site, now built in React with animations, better responsive behavior and a form to send me an email. This project demonstrates managing state, taking in data from a from, and the use of packages to enhance user experience.',
-            techList: ['React', 'JavaScript', 'Css', 'HTML', 'React-reveal', 'NPM', 'Github Pages', 'Email.js'],
+            techList: ['React', 'JavaScript', 'Css', 'HTML', 'NPM', 'Github Pages', 'Email.js', 'React-reveal', 'Particle.js'],
             liveLink: 'https://wabby404.github.io/portfolio-redo/',
             gitHub: 'https://github.com/WAbby404/portfolio-redo',
             imgOrVideo: <img src={img2} className="project-img" alt="Portfolio site Hero"/>,
