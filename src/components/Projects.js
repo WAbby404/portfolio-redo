@@ -10,7 +10,7 @@ function Projects(props) {
     const projects = [
         {
             title: 'Moonlit Financial Dashboard',
-            paragraph: 'A login secured financial tracking dashboard. Developed using React, Tailwind, MUI, JavaScript, Firebase Database & Authentication, Cypress Testing and designed in Figma. *To Demo, login with: Email: demo@gmail.com | Password: password*',
+            paragraph: 'A login secured financial tracking dashboard. Developed using React, Tailwind, Material UI, JavaScript, Firebase Database & Authentication, Cypress Testing and designed in Figma. *To Demo, login with: Email: demo@gmail.com | Password: password*',
             techList: ['React', 'JavaScript', 'CSS', 'HTML', 'Material UI', 'Tailwind', 'Firebase', 'Github Actions', 'Cypress', 'Figma'],
             liveLink: 'https://financial-dashboard-17bd5.web.app/',
             gitHub: 'https://github.com/WAbby404/financial-dashboard',
