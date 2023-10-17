@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-redo/static/css/main.d258e3d7.css",
-    "main.js": "/portfolio-redo/static/js/main.e8e21346.js",
+    "main.js": "/portfolio-redo/static/js/main.db791430.js",
     "static/media/floors-like-glass.jpg": "/portfolio-redo/static/media/floors-like-glass.8f8d194d832326b17134.jpg",
     "static/media/PortfolioSite.jpg": "/portfolio-redo/static/media/PortfolioSite.50fb6c8b6901ff027316.jpg",
     "static/media/Resume_Abby_Waddell.pdf": "/portfolio-redo/static/media/Resume_Abby_Waddell.cf8afec930c6dcd066a1.pdf",
@@ -11,10 +11,10 @@
     "index.html": "/portfolio-redo/index.html",
     "static/media/AWlogo.svg": "/portfolio-redo/static/media/AWlogo.808de40c8361320420f5ce0e7287ecc4.svg",
     "main.d258e3d7.css.map": "/portfolio-redo/static/css/main.d258e3d7.css.map",
-    "main.e8e21346.js.map": "/portfolio-redo/static/js/main.e8e21346.js.map"
+    "main.db791430.js.map": "/portfolio-redo/static/js/main.db791430.js.map"
   },
   "entrypoints": [
     "static/css/main.d258e3d7.css",
-    "static/js/main.e8e21346.js"
+    "static/js/main.db791430.js"
   ]
 }
