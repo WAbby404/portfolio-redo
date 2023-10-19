@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-redo/static/css/main.1745261e.css",
-    "main.js": "/portfolio-redo/static/js/main.5350d4cc.js",
+    "main.css": "/portfolio-redo/static/css/main.94496c80.css",
+    "main.js": "/portfolio-redo/static/js/main.a8c95686.js",
+    "static/media/FloorsLikeGlass.png": "/portfolio-redo/static/media/FloorsLikeGlass.949681bfca8d029002ab.png",
+    "static/media/EatThis.png": "/portfolio-redo/static/media/EatThis.3e1398c900e237ca6ba3.png",
     "static/media/floors-like-glass.jpg": "/portfolio-redo/static/media/floors-like-glass.8f8d194d832326b17134.jpg",
+    "static/media/Moonlit.png": "/portfolio-redo/static/media/Moonlit.5555d06cbb40ed9cbbdb.png",
     "static/media/PortfolioSite.jpg": "/portfolio-redo/static/media/PortfolioSite.50fb6c8b6901ff027316.jpg",
+    "static/media/Portfolio.png": "/portfolio-redo/static/media/Portfolio.0aeeb37ec8e8a253d186.png",
     "static/media/Resume_Abby_Waddell.pdf": "/portfolio-redo/static/media/Resume_Abby_Waddell.cf8afec930c6dcd066a1.pdf",
-    "static/media/slideshow1.jpg": "/portfolio-redo/static/media/slideshow1.89f7a0ff8904163555a6.jpg",
-    "static/media/slideshow2.jpg": "/portfolio-redo/static/media/slideshow2.bdbbc9a8a54f824d2fe1.jpg",
-    "static/media/slideshow3.jpg": "/portfolio-redo/static/media/slideshow3.25fbbc1d5318fcf0a43a.jpg",
     "index.html": "/portfolio-redo/index.html",
     "static/media/AWlogo.svg": "/portfolio-redo/static/media/AWlogo.808de40c8361320420f5ce0e7287ecc4.svg",
-    "main.1745261e.css.map": "/portfolio-redo/static/css/main.1745261e.css.map",
-    "main.5350d4cc.js.map": "/portfolio-redo/static/js/main.5350d4cc.js.map"
+    "main.94496c80.css.map": "/portfolio-redo/static/css/main.94496c80.css.map",
+    "main.a8c95686.js.map": "/portfolio-redo/static/js/main.a8c95686.js.map"
   },
   "entrypoints": [
-    "static/css/main.1745261e.css",
-    "static/js/main.5350d4cc.js"
+    "static/css/main.94496c80.css",
+    "static/js/main.a8c95686.js"
   ]
 }
