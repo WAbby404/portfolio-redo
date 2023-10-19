@@ -72,7 +72,7 @@ function Projects(props) {
                                         <ul className={`project-list ${index % 2 > 0 && 'opposite'}`}>
                                             {project.techList.map((projTech) => {
                                                 return (
-                                                    <li className="project-list-item"><span className="diamond">✦ </span>{projTech}</li>
+                                                    <li className="project-list-item"><span className="pink">✦ </span>{projTech}</li>
                                                 )
                                             })}
                                         </ul>

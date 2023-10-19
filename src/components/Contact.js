@@ -73,7 +73,7 @@ function Contact(props) {
                                     </a>
                                     <a className="contact-link" href="https://github.com/WAbby404" target="_blank" rel="noopener noreferrer">
                                         <i className="fa-brands fa-square-github fa-2x highlight-icon"></i>
-                                            <div className="contact-link-text">/WAbby404</div>
+                                        <div className="contact-link-text">/WAbby404</div>
                                     </a>
                             </Fade>
 

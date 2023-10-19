@@ -6,7 +6,6 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import resume from '../images/Resume_Abby_Waddell.pdf';
 
-
 function Hero(props) {
     return (
         <main>
@@ -28,7 +27,7 @@ function Hero(props) {
                     <div className="btn-flex">
                         <Link smooth={true} to="projects"><button className="btn btn--outline">Projects</button></Link>
                         <Link smooth={true} to="contact"><button className="btn btn--outline">Contact Me</button></Link>
-                        <a href={resume} target="_blank" rel="noopener noreferrer"><button className="btn btn--outline">Resume</button></a>
+                        <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn--outline">Resume</a>
                     </div>
                 </Fade>
 

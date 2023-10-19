@@ -6,23 +6,16 @@
     padding: 12rem 0 12rem 0;
     box-shadow: 0px -12px 20px 4px var(--main-dark-purple);
     align-self: center;
+    /* border: 1px solid red; */
 }
 
 .about-wrapper{
     width: 70%;
     margin: 0 auto;
-    display: flex;
-    gap: 5%;
-    justify-content: space-between;
-    justify-items: flex-start;
-    align-items: center;
+    /* border: 1px solid red; */
 }
 
 /* About Section text */
-
-.about-text{
-    width: 55%;
-}
 
 .about-title{
     color:var(--main-white);
@@ -30,12 +23,27 @@
     font-size: 3rem;
 }
 
+.about-text-img{
+    display:flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.about-text{
+    width: 50%;
+}
+
 .about-paragraph{
     font-size: 18px;
     color:var(--main-light-purple);
     letter-spacing: .25px;
     font-weight: 300;
-    padding: 10px;
+    background-color: hsl(245, 36%, 14%);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px 0;
 }
 
 .about-skills{
@@ -58,8 +66,9 @@
     padding: 1%;
 }
 
-.diamond{
+.pink{
     color: var(--main-pink);
+    font-weight: bold;
 }
 
 /* About Slideshow */
@@ -70,13 +79,14 @@
     transition: all .2s;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.img-flex{
+.slideshow-btns{
     display:flex;
     margin: 0 auto;
     align-items: center;
+    gap: 5px;
 }
 
 .slideshow-img{
@@ -85,7 +95,25 @@
     z-index: 2;
     border-radius: 6px;
     margin: 0 auto;
-    transition: all 0.5s linear;
+    box-shadow: 1px 0px 12px 1px rgb(11, 5, 31);
+}
+
+.fadeIn{
+    animation: fadeIn 0.5s;
+}
+
+.fadeOut{
+    animation: fadeOut 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 /* Image Slideshow Dots & caption */
@@ -112,6 +140,11 @@
     .about-section{
         padding: 10px 0 100px 0;
     }
+
+    .about-text-img{
+        flex-direction: column;
+    }
+
     .about-flex{
         display: flex;
         flex-direction: column;
@@ -129,6 +162,7 @@
     .about-slideshow{
         margin-top: 3rem;
         width: 100%;
+        
     }
 
     .pink-outline{

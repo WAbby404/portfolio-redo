@@ -51,7 +51,7 @@ function Navbar(props) {
                     <Link smooth={true} to="about"><button className='btn btn--nav' onClick={() => setClicked(false)}>About</button></Link>
                     <Link smooth={true} to="projects"><button className='btn btn--nav' onClick={() => setClicked(false)}>Projects</button></Link>
                     <Link smooth={true} to="contact"><button className='btn btn--nav' onClick={() => setClicked(false)}>Contact</button></Link>
-                    <a href={resume} target="_blank" rel="noopener noreferrer" onClick={() => setClicked(false)}><button className='btn btn--nav'>Resume</button></a>
+                    <a href={resume} target="_blank" rel="noopener noreferrer" onClick={() => setClicked(false)} className='btn btn--nav'>Resume</a>
                 </div> 
             </div>
         </nav>
