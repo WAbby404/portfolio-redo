@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 import Fade from 'react-reveal/Fade';
-import resume from '../images/Resume_Abby_Waddell.pdf';
+import resume from '../images/Abby_Waddell_Resume.pdf';
 
 
 function Contact(props) {
