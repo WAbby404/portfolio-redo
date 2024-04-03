@@ -57,10 +57,10 @@ function About(props) {
                                 <p className="about-paragraph">
                                 Hello!
                                 <br/>
-                                I'm Abby, I'm a self taught software developer with a <span className="pink">degree in Graphic Design</span>. Since receiving my <span className="pink">Codecademy Front-End Engineer Certificate</span> I have done <span className="pink">freelancing work</span> along with many personal projects.
+                                I'm Abby, I'm a <span className="pink">Frontend developer</span> who specializes in <span className="pink">React</span>, <span className="pink">JavaScript</span>, <span className="pink">Cypress</span>, <span className="pink">Tailwind</span> and <span className="pink">Figma</span>. My current interests include <span className="pink">TypeScript</span>, <span className="pink">Material UI</span>, and <span className="pink">Firebase</span>. I have about a year of experience in software development and have focused on building applications that are the face of companies on the web.
                                 <br/>
                                 <br/>
-                                I am currently looking for a <span className="pink">Front-End React.js Web Developer</span> position at a company with a dev team that shares my passion for creating powerful websites & web apps. Being part of a team who is eager to share what they know about the vast world of coding is my main goal in my job search.
+                                As a Frontend developer who is transitioning from freelance work to larger-scale projects, I am looking for a collaborative environment that supports my growth as a Frontend engineer.
                                 <br/>
                                 <br/>
                                     <span className="pink">Take a look at my projects</span>

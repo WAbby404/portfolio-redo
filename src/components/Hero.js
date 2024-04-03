@@ -18,10 +18,10 @@ function Hero(props) {
                     <h1 className="hero-title">Abby Waddell</h1>
                 </Fade>
                 <Fade delay={1000}>
-                    <h2 className="hero-subtitle">I work with web pages & web apps</h2>
+                    <h2 className="hero-subtitle">I'm a Frontend Web Developer</h2>
                 </Fade>
                 <Fade delay={1100}>
-                    <p className="hero-paragraph">I'm a software engineer who is interested in building <span>web apps</span>, and a <span>thirst for learning more</span>.</p>
+                    <p className="hero-paragraph">I specialize in building <span>React</span>, <span>JavaScript</span>, <span>Figma</span> and <span>Cypress</span> web apps. My current interests include <span>TypeScript</span>, <span>Material UI</span> and <span>Firebase</span>.</p>
                 </Fade>
                 <Fade delay={1100} bottom>
                     <div className="btn-flex">
