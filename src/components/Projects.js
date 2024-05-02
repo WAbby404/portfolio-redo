@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import "./Button.css";
 import img2 from "../images/PortfolioSite.jpg";
+import img3 from "../images/SpotifyConnect.png";
 import floorsLikeGlass from "../images/floors-like-glass.jpg";
 import Fade from "react-reveal/Fade";
 
@@ -89,6 +90,28 @@ function Projects(props) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+      ),
+    },
+    {
+      title: "Coming soon...",
+      paragraph:
+        "ts-Spotify is a Spotify playlist builder made with React, TypeScript, Tailwind, Cypress and Spotify API. Login and select a playlist and a genre to make a new playlist out of.",
+      techList: [
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Tailwind",
+        "Cypress",
+        "API",
+      ],
+      liveLink: "",
+      gitHub: "",
+      imgOrVideo: (
+        <img
+          src={img3}
+          className="project-img proj-img-opposite"
+          alt="ts-Spotify"
+        />
       ),
     },
     {
