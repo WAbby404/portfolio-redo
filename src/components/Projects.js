@@ -129,8 +129,8 @@ function Projects(props) {
         "React-reveal",
         "Particle.js",
       ],
-      liveLink: "https://wabby404.github.io/portfolio-redo/",
-      gitHub: "https://github.com/WAbby404/portfolio-redo",
+      liveLink: "",
+      gitHub: "https://github.com/WAbby404/ts-spotify",
       imgOrVideo: (
         <img src={img2} className="project-img" alt="Portfolio site Hero" />
       ),
@@ -189,14 +189,19 @@ function Projects(props) {
                     <div
                       className={`project-btn ${index % 2 > 0 && "opposite"}`}
                     >
-                      <a
-                        href={project.liveLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn--outline-small"
-                      >
-                        Live Site
-                      </a>
+                      {project.liveLink.length ? (
+                        <a
+                          href={project.liveLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn--outline-small"
+                        >
+                          Live Site
+                        </a>
+                      ) : (
+                        <div></div>
+                      )}
+
                       <a
                         href={project.gitHub}
                         target="_blank"
