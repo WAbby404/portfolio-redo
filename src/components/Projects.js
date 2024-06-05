@@ -105,7 +105,7 @@ function Projects(props) {
         "API",
       ],
       liveLink: "",
-      gitHub: "",
+      gitHub: "https://github.com/WAbby404/ts-spotify",
       imgOrVideo: (
         <img
           src={img3}
@@ -130,7 +130,7 @@ function Projects(props) {
         "Particle.js",
       ],
       liveLink: "",
-      gitHub: "https://github.com/WAbby404/ts-spotify",
+      gitHub: "",
       imgOrVideo: (
         <img src={img2} className="project-img" alt="Portfolio site Hero" />
       ),
