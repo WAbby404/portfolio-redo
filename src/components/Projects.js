@@ -109,7 +109,7 @@ function Projects(props) {
         <iframe
           width={window.innerWidth > 600 ? "500" : "300"}
           height="315"
-          src="https://youtu.be/-IJ8TVwGy1k"
+          src="https://www.youtube.com/embed/-IJ8TVwGy1k?si=VmMo6AmxRxd8uZZ-"
           title="YouTube video player - Playlists and Genres Demo"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
