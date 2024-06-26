@@ -93,25 +93,28 @@ function Projects(props) {
       ),
     },
     {
-      title: "Coming soon...",
+      title: "Playlists and Genres",
       paragraph:
-        "ts-Spotify is a Spotify playlist builder made with React, TypeScript, Tailwind, Cypress and Spotify API. Login and select a playlist and a genre to make a new playlist out of.",
+        "Playlists and Genres is a Spotify playlist builder built with React, TypeScript, Tailwind, Material UI and Spotify API. Login and select a playlist and a genre to make a new playlist from. Until my extension request is approved, only verified users can use the app.",
       techList: [
         "React",
         "TypeScript",
         "Material UI",
         "Tailwind",
-        "Cypress",
-        "API",
+        "Spotify API",
       ],
-      liveLink: "",
+      liveLink: "https://playlistsandgenres.netlify.app/",
       gitHub: "https://github.com/WAbby404/ts-spotify",
       imgOrVideo: (
-        <img
-          src={img3}
-          className="project-img proj-img-opposite"
-          alt="ts-Spotify"
-        />
+        <iframe
+          width={window.innerWidth > 600 ? "500" : "300"}
+          height="315"
+          src="https://youtu.be/-IJ8TVwGy1k"
+          title="YouTube video player - Playlists and Genres Demo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       ),
     },
     {
@@ -130,7 +133,7 @@ function Projects(props) {
         "Particle.js",
       ],
       liveLink: "",
-      gitHub: "",
+      gitHub: "https://github.com/WAbby404/portfolio-redo",
       imgOrVideo: (
         <img src={img2} className="project-img" alt="Portfolio site Hero" />
       ),
